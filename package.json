@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "esbuild app.jsx --bundle --outfile=dist/bundle.js --platform=browser --jsx=transform --minify",
+    "build": "node build.js",
     "dev": "concurrently \"esbuild app.jsx --bundle --outfile=dist/bundle.js --platform=browser --jsx=transform --watch\" \"http-server . -p 3000 -c-1 --cors\"",
     "start": "http-server . -p 3000 -c-1 --cors"
   },
