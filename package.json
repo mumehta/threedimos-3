@@ -1,0 +1,19 @@
+{
+  "name": "threedimos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --outfile=dist/bundle.js --platform=browser --jsx=transform --minify",
+    "dev": "concurrently \"esbuild app.jsx --bundle --outfile=dist/bundle.js --platform=browser --jsx=transform --watch\" \"http-server . -p 3000 -c-1 --cors\"",
+    "start": "http-server . -p 3000 -c-1 --cors"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.25.0",
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-02T00:00:00.000Z",
+  "title": "Design System: Three Dimos",
+  "extensions": {
+    "colorMeta": {
+      "primary-violet": {
+        "role": "primary",
+        "displayName": "Primary Violet",
+        "canonical": "oklch(53% 0.26 272)",
+        "tonalRamp": [
+          "oklch(15% 0.12 272)",
+          "oklch(24% 0.18 272)",
+          "oklch(34% 0.22 272)",
+          "oklch(43% 0.25 272)",
+          "oklch(53% 0.26 272)",
+          "oklch(63% 0.22 272)",
+          "oklch(76% 0.15 272)",
+          "oklch(90% 0.07 272)"
+        ]
+      },
+      "secondary-cyan": {
+        "role": "secondary",
+        "displayName": "Signal Cyan",
+        "canonical": "oklch(80% 0.15 197)",
+        "tonalRamp": [
+          "oklch(20% 0.09 197)",
+          "oklch(32% 0.12 197)",
+          "oklch(45% 0.14 197)",
+          "oklch(56% 0.15 197)",
+          "oklch(67% 0.15 197)",
+          "oklch(76% 0.15 197)",
+          "oklch(80% 0.15 197)",
+          "oklch(91% 0.08 197)"
+        ]
+      },
+      "tertiary-magenta": {
+        "role": "tertiary",
+        "displayName": "Charged Magenta",
+        "canonical": "oklch(61% 0.23 355)",
+        "tonalRamp": [
+          "oklch(16% 0.11 355)",
+          "oklch(26% 0.17 355)",
+          "oklch(36% 0.20 355)",
+          "oklch(46% 0.22 355)",
+          "oklch(55% 0.23 355)",
+          "oklch(61% 0.23 355)",
+          "oklch(74% 0.18 355)",
+          "oklch(88% 0.10 355)"
+        ]
+      },
+      "void-black": {
+        "role": "neutral",
+        "displayName": "Void Black",
+        "canonical": "oklch(5% 0.006 284)",
+        "tonalRamp": [
+          "oklch(5% 0.006 284)",
+          "oklch(10% 0.008 284)",
+          "oklch(17% 0.010 284)",
+          "oklch(26% 0.011 284)",
+          "oklch(38% 0.011 284)",
+          "oklch(52% 0.010 284)",
+          "oklch(70% 0.008 284)",
+          "oklch(88% 0.004 284)"
+        ]
+      },
+      "void-surface": {
+        "role": "neutral",
+        "displayName": "Void Surface",
+        "canonical": "oklch(7% 0.007 280)",
+        "tonalRamp": [
+          "oklch(7% 0.007 280)",
+          "oklch(12% 0.008 280)",
+          "oklch(20% 0.010 280)",
+          "oklch(30% 0.011 280)",
+          "oklch(42% 0.011 280)",
+          "oklch(56% 0.010 280)",
+          "oklch(72% 0.008 280)",
+          "oklch(90% 0.005 280)"
+        ]
+      },
+      "chalk-white": {
+        "role": "neutral",
+        "displayName": "Chalk White",
+        "canonical": "oklch(96% 0.007 292)",
+        "tonalRamp": [
+          "oklch(12% 0.007 292)",
+          "oklch(28% 0.007 292)",
+          "oklch(44% 0.007 292)",
+          "oklch(60% 0.007 292)",
+          "oklch(72% 0.007 292)",
+          "oklch(84% 0.007 292)",
+          "oklch(92% 0.007 292)",
+          "oklch(96% 0.007 292)"
+        ]
+      },
+      "light-ground": {
+        "role": "neutral",
+        "displayName": "Light Ground",
+        "canonical": "oklch(96% 0.007 75)",
+        "tonalRamp": [
+          "oklch(12% 0.006 75)",
+          "oklch(28% 0.007 75)",
+          "oklch(44% 0.008 75)",
+          "oklch(58% 0.009 75)",
+          "oklch(70% 0.009 75)",
+          "oklch(82% 0.009 75)",
+          "oklch(91% 0.008 75)",
+          "oklch(96% 0.007 75)"
+        ]
+      },
+      "deep-ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "canonical": "oklch(6% 0.008 280)",
+        "tonalRamp": [
+          "oklch(6% 0.008 280)",
+          "oklch(12% 0.009 280)",
+          "oklch(20% 0.010 280)",
+          "oklch(32% 0.011 280)",
+          "oklch(46% 0.011 280)",
+          "oklch(60% 0.010 280)",
+          "oklch(76% 0.008 280)",
+          "oklch(92% 0.005 280)"
+        ]
+      },
+      "live-green": {
+        "role": "status",
+        "displayName": "Live Green",
+        "canonical": "oklch(69% 0.20 158)",
+        "tonalRamp": [
+          "oklch(16% 0.08 158)",
+          "oklch(26% 0.11 158)",
+          "oklch(38% 0.15 158)",
+          "oklch(50% 0.18 158)",
+          "oklch(60% 0.20 158)",
+          "oklch(69% 0.20 158)",
+          "oklch(79% 0.16 158)",
+          "oklch(91% 0.09 158)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero title only. Three stacked lines at extreme scale (up to 168px / 10.5rem). Compressed line-height creates visual mass. The scale deliberately exceeds typical heading ceilings — it is the brand making its tagline into architecture."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings and the CTA card. Maintains Schibsted Grotesk 700 weight; scale differentiates it from Display. The ≥1.6 scale ratio from Display to Headline preserves clear hierarchy."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card headings, pillar titles. Same Schibsted Grotesk weight and tracking as Headline; smaller size. Used inside contained components."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All prose copy. Hanken Grotesk at 17px with 1.55 line-height for legibility. Full Chalk White (#f3f2f8) for primary copy; 64% opacity for supporting text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Section eyebrows, card numbers, meta text, pill tags. Space Mono exclusively; capped at 12px. Never used for body copy or anything longer than 6 words."
+      }
+    },
+    "shadows": [
+      {
+        "name": "btn-glow-rest",
+        "value": "0 8px 30px -8px color-mix(in oklab, #7c5cff 70%, transparent)",
+        "purpose": "Always-visible violet halo under primary buttons at rest. Establishes the button as the primary action before any interaction."
+      },
+      {
+        "name": "btn-glow-hover",
+        "value": "0 18px 50px -10px color-mix(in oklab, #22d3ee 75%, transparent)",
+        "purpose": "Expanded cyan glow on button hover. The hue shift from violet to cyan signals activation; the increased spread communicates elevation."
+      },
+      {
+        "name": "cta-ambient",
+        "value": "radial-gradient(circle, color-mix(in oklab, #22d3ee 22%, transparent), transparent 60%) with filter: blur(30px)",
+        "purpose": "Diffuse floor-level glow behind the CTA card. Structural light source, not shadow. Places the card on a lit surface rather than floating it."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-magnetic",
+        "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "purpose": "Default easing for all interactive transforms (hover lifts, button presses, card elevations). Exponential ease-out gives the fluid, magnetic feel of elements moving toward and away from the cursor."
+      },
+      {
+        "name": "ease-reveal",
+        "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "purpose": "Scroll-reveal transitions. Same curve as magnetic; applied at 0.9s duration to create a slower, more deliberate entrance."
+      },
+      {
+        "name": "duration-hover",
+        "value": "0.35s",
+        "purpose": "Transform and shadow transitions on hover. Fast enough to feel responsive, slow enough to feel weighted."
+      },
+      {
+        "name": "duration-reveal",
+        "value": "0.9s",
+        "purpose": "Scroll-triggered reveal duration. Long enough for the reveal to feel choreographed rather than instantaneous."
+      },
+      {
+        "name": "duration-subtle",
+        "value": "0.25s",
+        "purpose": "Color, opacity, and background transitions. Faster than hover transforms; used for state changes that don't involve movement."
+      }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "520px", "purpose": "Single-column process grid; kinetic hero row stacks vertically." },
+      { "name": "tablet", "value": "760px", "purpose": "Work grid collapses to single column; split hero orb fills full width." },
+      { "name": "nav-collapse", "value": "880px", "purpose": "Nav links hide; only logo and primary CTA remain visible." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main CTA. Brand gradient background, near-black text, violet-to-cyan glow shift on hover.",
+      "html": "<button class=\"ds-btn-primary\">Start a project <svg class=\"ds-btn-arrow\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M4 12L12 4M12 4H5M12 4V11\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-btn-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  height: 52px;\n  padding: 0 26px;\n  border-radius: 11px;\n  font-family: 'Hanken Grotesk', system-ui, sans-serif;\n  font-weight: 600;\n  font-size: 15.5px;\n  letter-spacing: -0.01em;\n  border: 1px solid transparent;\n  cursor: pointer;\n  color: #07070c;\n  background: linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d);\n  background-size: 160% 160%;\n  box-shadow: 0 8px 30px -8px color-mix(in oklab, #7c5cff 70%, transparent);\n  transition: transform 0.35s cubic-bezier(0.2,0.8,0.2,1), box-shadow 0.35s;\n  white-space: nowrap;\n}\n.ds-btn-primary:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 18px 50px -10px color-mix(in oklab, #22d3ee 75%, transparent);\n}\n.ds-btn-primary:active {\n  transform: translateY(1px) scale(0.99);\n}\n.ds-btn-primary:focus-visible {\n  outline: 2px solid #7c5cff;\n  outline-offset: 3px;\n}\n.ds-btn-arrow {\n  transition: transform 0.35s cubic-bezier(0.2,0.8,0.2,1);\n}\n.ds-btn-primary:hover .ds-btn-arrow {\n  transform: translate(3px,-3px);\n}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action. Frosted glass panel with chalk text; border lifts on hover.",
+      "html": "<button class=\"ds-btn-ghost\">See our work</button>",
+      "css": ".ds-btn-ghost {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  height: 52px;\n  padding: 0 26px;\n  border-radius: 11px;\n  font-family: 'Hanken Grotesk', system-ui, sans-serif;\n  font-weight: 600;\n  font-size: 15.5px;\n  letter-spacing: -0.01em;\n  border: 1px solid rgba(255,255,255,0.16);\n  cursor: pointer;\n  color: #f3f2f8;\n  background: rgba(255,255,255,0.035);\n  backdrop-filter: blur(8px);\n  -webkit-backdrop-filter: blur(8px);\n  transition: transform 0.35s cubic-bezier(0.2,0.8,0.2,1), background 0.25s, border-color 0.25s;\n  white-space: nowrap;\n}\n.ds-btn-ghost:hover {\n  background: rgba(255,255,255,0.06);\n  border-color: rgba(243,242,248,0.4);\n  transform: translateY(-2px);\n}\n.ds-btn-ghost:active {\n  transform: translateY(1px) scale(0.99);\n}\n.ds-btn-ghost:focus-visible {\n  outline: 2px solid #7c5cff;\n  outline-offset: 3px;\n}"
+    },
+    {
+      "name": "Tag / Chip",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Informational label. Space Mono, pill shape, dim text. No hover state — it is a label, not an action.",
+      "html": "<span class=\"ds-tag\">WordPress</span>",
+      "css": ".ds-tag {\n  display: inline-block;\n  font-family: 'Space Mono', ui-monospace, monospace;\n  font-size: 11.5px;\n  letter-spacing: 0.04em;\n  color: rgba(243,242,248,0.64);\n  padding: 5px 11px;\n  border: 1px solid rgba(255,255,255,0.10);\n  border-radius: 999px;\n  background: rgba(255,255,255,0.035);\n}"
+    },
+    {
+      "name": "Eyebrow Label",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Brand-system kicker label. Brand-gradient dash precedes uppercase mono text. Used selectively — not on every section.",
+      "html": "<span class=\"ds-eyebrow\">What we do</span>",
+      "css": ".ds-eyebrow {\n  font-family: 'Space Mono', ui-monospace, monospace;\n  font-size: 12px;\n  letter-spacing: 0.22em;\n  text-transform: uppercase;\n  color: rgba(243,242,248,0.40);\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n}\n.ds-eyebrow::before {\n  content: '';\n  width: 22px;\n  height: 1px;\n  background: linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d);\n  flex-shrink: 0;\n}"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Primary content card. Panel-gradient face lifts on hover; cursor-position radial spotlight follows the mouse (requires JS to set --mx custom property).",
+      "html": "<article class=\"ds-svc-card\"><div class=\"ds-svc-head-row\"><div class=\"ds-svc-ico\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M3 9h18\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"6\" cy=\"6.5\" r=\"0.7\" fill=\"currentColor\"/><circle cx=\"8.4\" cy=\"6.5\" r=\"0.7\" fill=\"currentColor\"/></svg></div><span class=\"ds-svc-num\">01</span></div><h3 class=\"ds-svc-title\">Interactive Business Websites</h3><p class=\"ds-svc-tagline\">Sites that work as hard as you do.</p><p class=\"ds-svc-desc\">Multi-page websites with motion, a CMS you can actually use, and the polish that earns trust on first click.</p><div class=\"ds-svc-tags\"><span class=\"ds-tag\">WordPress</span><span class=\"ds-tag\">Hugo</span><span class=\"ds-tag\">Custom build</span></div></article>",
+      "css": ".ds-svc-card {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid rgba(255,255,255,0.10);\n  border-radius: 16px;\n  background: linear-gradient(180deg, rgba(255,255,255,0.035), transparent), #07070c;\n  padding: 32px;\n  min-height: 280px;\n  display: flex;\n  flex-direction: column;\n  transition: transform 0.5s cubic-bezier(0.2,0.8,0.2,1), border-color 0.4s;\n}\n.ds-svc-card:hover {\n  transform: translateY(-4px);\n  border-color: rgba(255,255,255,0.16);\n}\n.ds-svc-head-row {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  margin-bottom: 18px;\n}\n.ds-svc-ico {\n  width: 46px;\n  height: 46px;\n  border-radius: 12px;\n  display: grid;\n  place-items: center;\n  background: rgba(255,255,255,0.06);\n  border: 1px solid rgba(255,255,255,0.10);\n  color: #f3f2f8;\n  flex-shrink: 0;\n}\n.ds-svc-num {\n  font-family: 'Space Mono', ui-monospace, monospace;\n  font-size: 12px;\n  color: rgba(243,242,248,0.40);\n  letter-spacing: 0.1em;\n}\n.ds-svc-title {\n  font-family: 'Schibsted Grotesk', system-ui, sans-serif;\n  font-size: clamp(1.4375rem, 2.4vw, 1.875rem);\n  font-weight: 700;\n  letter-spacing: -0.03em;\n  line-height: 0.98;\n  color: #f3f2f8;\n  margin: 0 0 12px;\n  text-wrap: balance;\n}\n.ds-svc-tagline {\n  font-family: 'Schibsted Grotesk', system-ui, sans-serif;\n  font-weight: 600;\n  font-size: 15px;\n  letter-spacing: -0.01em;\n  background: linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d);\n  -webkit-background-clip: text;\n  background-clip: text;\n  color: transparent;\n  margin: 0 0 14px;\n}\n.ds-svc-desc {\n  font-family: 'Hanken Grotesk', system-ui, sans-serif;\n  color: rgba(243,242,248,0.64);\n  font-size: 15.5px;\n  line-height: 1.55;\n  margin: 0 0 22px;\n}\n.ds-svc-tags {\n  display: flex;\n  gap: 8px;\n  flex-wrap: wrap;\n  margin-top: auto;\n}\n.ds-tag {\n  display: inline-block;\n  font-family: 'Space Mono', ui-monospace, monospace;\n  font-size: 11.5px;\n  letter-spacing: 0.04em;\n  color: rgba(243,242,248,0.64);\n  padding: 5px 11px;\n  border: 1px solid rgba(255,255,255,0.10);\n  border-radius: 999px;\n  background: rgba(255,255,255,0.035);\n}"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Fixed frosted-glass top nav. Transparent at top; background and blur activate on scroll (add ds-nav--scrolled). Brand logotype + gradient CTA button.",
+      "html": "<nav class=\"ds-nav ds-nav--scrolled\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-nav-word\"><span class=\"ds-three\">three</span><span class=\"ds-dimos\">dimos</span></span></a><div class=\"ds-nav-links\"><a class=\"ds-nav-link\" href=\"#\">Services</a><a class=\"ds-nav-link\" href=\"#\">Work</a><a class=\"ds-nav-link\" href=\"#\">Process</a><button class=\"ds-btn-nav-cta\">Start a project</button></div></nav>",
+      "css": ".ds-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 14px 24px;\n  border-bottom: 1px solid transparent;\n  transition: background 0.4s, backdrop-filter 0.4s, border-color 0.4s, padding 0.4s;\n}\n.ds-nav--scrolled {\n  background: color-mix(in oklab, #07070c 72%, transparent);\n  backdrop-filter: blur(18px) saturate(140%);\n  -webkit-backdrop-filter: blur(18px) saturate(140%);\n  border-bottom-color: rgba(255,255,255,0.10);\n  padding-block: 10px;\n}\n.ds-brand {\n  text-decoration: none;\n  display: flex;\n  align-items: center;\n  gap: 13px;\n}\n.ds-nav-word {\n  font-family: 'Schibsted Grotesk', system-ui, sans-serif;\n  font-weight: 800;\n  letter-spacing: -0.045em;\n  line-height: 1;\n  font-size: 22px;\n  display: flex;\n}\n.ds-three { color: #f3f2f8; }\n.ds-dimos {\n  background: linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d);\n  -webkit-background-clip: text;\n  background-clip: text;\n  color: transparent;\n}\n.ds-nav-links {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n}\n.ds-nav-link {\n  font-family: 'Hanken Grotesk', system-ui, sans-serif;\n  font-size: 14.5px;\n  font-weight: 500;\n  color: rgba(243,242,248,0.64);\n  padding: 9px 14px;\n  border-radius: 9px;\n  text-decoration: none;\n  transition: color 0.2s, background 0.2s;\n}\n.ds-nav-link:hover {\n  color: #f3f2f8;\n  background: rgba(255,255,255,0.035);\n}\n.ds-btn-nav-cta {\n  margin-left: 8px;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  height: 40px;\n  padding: 0 18px;\n  border-radius: 11px;\n  font-family: 'Hanken Grotesk', system-ui, sans-serif;\n  font-weight: 600;\n  font-size: 14px;\n  letter-spacing: -0.01em;\n  border: 1px solid transparent;\n  cursor: pointer;\n  color: #07070c;\n  background: linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d);\n  box-shadow: 0 6px 20px -6px color-mix(in oklab, #7c5cff 70%, transparent);\n  transition: transform 0.35s cubic-bezier(0.2,0.8,0.2,1), box-shadow 0.35s;\n}\n.ds-btn-nav-cta:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 12px 30px -8px color-mix(in oklab, #22d3ee 75%, transparent);\n}"
+    },
+    {
+      "name": "Work Card",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Portfolio card. Hatched placeholder thumbnail with cyan sheen reveal on hover. Arrow rotates 45° and fills with brand gradient on card hover.",
+      "html": "<article class=\"ds-work-card\"><div class=\"ds-work-thumb\" data-ph=\"Aurora — 3D product launch\"><div class=\"ds-work-sheen\"></div></div><div class=\"ds-work-meta\"><div><span class=\"ds-work-cat\">Concept · Landing page</span><h3 class=\"ds-work-title\">Aurora — 3D product launch</h3></div><div class=\"ds-work-arrow\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M4 12L12 4M12 4H5M12 4V11\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div></div></article>",
+      "css": ".ds-work-card {\n  position: relative;\n  border: 1px solid rgba(255,255,255,0.10);\n  border-radius: 16px;\n  overflow: hidden;\n  background: #0b0b13;\n  transition: transform 0.5s cubic-bezier(0.2,0.8,0.2,1), border-color 0.4s;\n  cursor: pointer;\n}\n.ds-work-card:hover {\n  transform: translateY(-5px);\n  border-color: rgba(255,255,255,0.16);\n}\n.ds-work-thumb {\n  position: relative;\n  aspect-ratio: 16 / 10;\n  overflow: hidden;\n  background: repeating-linear-gradient(135deg, color-mix(in oklab, #7c5cff 9%, #0b0b13) 0 14px, #0b0b13 14px 28px);\n}\n.ds-work-thumb::after {\n  content: attr(data-ph);\n  position: absolute;\n  inset: 0;\n  display: grid;\n  place-items: center;\n  font-family: 'Space Mono', ui-monospace, monospace;\n  font-size: 12px;\n  letter-spacing: 0.12em;\n  text-transform: uppercase;\n  color: rgba(243,242,248,0.40);\n}\n.ds-work-sheen {\n  position: absolute;\n  inset: 0;\n  background: radial-gradient(60% 80% at 30% 0%, color-mix(in oklab, #22d3ee 26%, transparent), transparent 55%);\n  opacity: 0;\n  transition: opacity 0.5s;\n}\n.ds-work-card:hover .ds-work-sheen { opacity: 1; }\n.ds-work-meta {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 22px;\n  gap: 16px;\n}\n.ds-work-cat {\n  display: block;\n  font-family: 'Space Mono', ui-monospace, monospace;\n  font-size: 11px;\n  letter-spacing: 0.1em;\n  text-transform: uppercase;\n  color: rgba(243,242,248,0.40);\n  margin-bottom: 7px;\n}\n.ds-work-title {\n  font-family: 'Schibsted Grotesk', system-ui, sans-serif;\n  font-size: clamp(1.25rem, 2vw, 1.625rem);\n  font-weight: 700;\n  letter-spacing: -0.03em;\n  line-height: 0.98;\n  color: #f3f2f8;\n  margin: 0;\n}\n.ds-work-arrow {\n  width: 42px;\n  height: 42px;\n  border-radius: 50%;\n  border: 1px solid rgba(255,255,255,0.16);\n  display: grid;\n  place-items: center;\n  flex-shrink: 0;\n  color: #f3f2f8;\n  transition: background 0.3s, color 0.3s, transform 0.4s, border-color 0.3s;\n}\n.ds-work-card:hover .ds-work-arrow {\n  background: linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d);\n  color: #07070c;\n  border-color: transparent;\n  transform: rotate(-45deg);\n}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Live Performance",
+    "overview": "Three Dimos is a web studio whose landing page is also its portfolio, its pitch deck, and its product demo. The design system reflects that double function: every surface must earn its existence by demonstrating what the studio sells — design that is intentional, code that is precise, motion that is alive. The system is dark-first, cinematic, and built around three accent beams (violet, cyan, magenta) that project from a near-black void. Contrast is structural, not decorative. Density is controlled; every section breathes on its own terms.\n\nTypography is the primary performer. Schibsted Grotesk pushes the display weight to 800 at sizes that dwarf a typical heading — the hero title runs to 10.5rem, a deliberate choice that makes the page shout its own tagline. The monospace label font (Space Mono) appears only at small scales as a counter-voice: sparse, technical, anchoring. Body copy (Hanken Grotesk) sits back and lets the headings lead. The three-font stack is a cast of three, not a font system applied uniformly.\n\nMotion is structural. The WebGL background (reef or orb), the scroll-reveal stagger, the kinetic marquee variant — each is an argument, not flair. This system explicitly rejects the 'generic Awwwards fodder' lane: over-animated dark-mode agencies whose technical impressiveness works on other designers but alienates the small business owners who are the actual clients.",
+    "keyCharacteristics": [
+      "Dark void backgrounds with tonal surface lift (no heavy shadows)",
+      "Three-color gradient accent that appears as brand signature, not decoration",
+      "Ultra-compressed display headings (line-height 0.9) at extreme scales",
+      "Monospace labels as counter-voice — sparse, minimal, never dominant",
+      "Fluid motion intensity via --motion variable; reduced motion is a zero cost",
+      "Glass panels (backdrop-filter blur) used structurally in nav only — never on content cards"
+    ],
+    "rules": [
+      {
+        "name": "The Three-Beam Rule",
+        "body": "The brand gradient (linear-gradient(110deg, #7c5cff, #22d3ee 52%, #ff4d9d)) is the brand's single most recognizable mark. Permitted contexts: logo, hero title selective lines, button backgrounds, short tagline text in service cards, the footer wordmark. Prohibited: body paragraphs, card backgrounds, section backgrounds, nav items.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Status Color Rule",
+        "body": "Live Green (#37e39b) is used exclusively as a status signal (booking availability). Never repurpose it as a general accent or decorative element.",
+        "section": "colors"
+      },
+      {
+        "name": "The Compression Rule",
+        "body": "Display and Headline headings run at line-height 0.98 or tighter. Never relax display headings to line-height 1.2; that softens the page's intention.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Ceiling Rule",
+        "body": "Space Mono is capped at 12px and used only for labels, metadata, eyebrows, and pill tags. Never use it for body copy or anything longer than 6 words.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest. Glows appear only in response to interaction (hover, active) or as structural light sources (hero spotlight, CTA ambient). Never apply box-shadow to a card or container as a 'depth' affordance; use tonal surface lift instead.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do let the brand gradient carry the brand's visual identity — on the logo, hero title, CTA buttons, and short service taglines. These are the permitted contexts.",
+      "Do use tonal surface lift (alternating #07070c / #0b0b13) for section separation. Borders and shadows are not needed when the surface itself shifts.",
+      "Do run display headings at line-height 0.9–0.98 and letter-spacing -0.03em to -0.045em.",
+      "Do use Space Mono exclusively for labels, eyebrows, and meta at 12px maximum.",
+      "Do use backdrop-filter blur on the navigation and floating status elements only.",
+      "Do express button hover via the violet-to-cyan glow shift combined with translateY(-2px).",
+      "Do wire up the --motion variable (0 to 1.4) to control animation intensity. Every timed animation must scale its duration or disable at --motion: 0.",
+      "Do keep body text at full #f3f2f8 for primary copy; use rgba(243,242,248,0.64) only for supporting and secondary text.",
+      "Do give cards the cursor-tracking radial spotlight (--mx custom property) for hover depth."
+    ],
+    "donts": [
+      "Don't build like generic Awwwards fodder — over-animated dark-mode studios whose technical impressiveness impresses designers but alienates small business owners.",
+      "Don't apply the brand gradient to body paragraphs, card backgrounds, section backgrounds, or nav items. When the gradient becomes wallpaper, it loses its signal value.",
+      "Don't use backdrop-filter glass on content cards or section containers.",
+      "Don't use Live Green (#37e39b) for anything other than the booking availability status indicator.",
+      "Don't add eyebrow labels above every section heading. An eyebrow on a self-explanatory section heading is AI grammar.",
+      "Don't relax the compressed heading metrics (line-height 0.98 or tighter, letter-spacing -0.03em or tighter).",
+      "Don't use Space Mono at sizes above 12px or for text longer than 6 words.",
+      "Don't use any standard box-shadow on a card at rest. Depth comes from tonal surface lift and radial face gradients.",
+      "Don't add numbered 01/02/03 labels above general section headings as structural scaffolding.",
+      "Don't introduce a fourth font family. The three-font stack is a cast."
+    ]
+  }
+}

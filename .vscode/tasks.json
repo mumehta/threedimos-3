@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build ThreeDimos bundle",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run Dev Server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "GitHub Preflight",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"git status && git branch --show-current && git remote -v && gh --version && gh auth status"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Create Repo And Push Main",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"git add . && git commit -m \"Initial commit\" && gh repo create threedimos-3 --source . --remote origin --push --public"
+			],
+			"isBackground": false
+		}
+	]
+}
